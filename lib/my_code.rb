@@ -10,7 +10,7 @@ def map(array)
   new_array
 end
 
-def reduce (array, start_point = nil)
-  if start_point
+def reduce (array, start_point = 0)
+  
     
     
