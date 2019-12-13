@@ -10,8 +10,18 @@ def map(array)
   new_array
 end
 
-def reduce (array, start_point = 0)
-  i = 0
+def reduce (array, start_point = nil)
+  if start_point
+    sum = start_point
+    i = 0
+  else
+    sum = array[0]
+    i = 1
+  end
   while i < array.length do 
+    yield(sum, array[i])
+    i += 1
+  end
+end
     
     
