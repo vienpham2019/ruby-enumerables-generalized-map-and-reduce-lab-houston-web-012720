@@ -11,6 +11,6 @@ def map(array)
 end
 
 def reduce (array, start_point = 0)
-  
+  i = 
     
     
