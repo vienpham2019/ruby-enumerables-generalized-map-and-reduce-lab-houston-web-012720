@@ -11,6 +11,7 @@ def map(array)
 end
 
 def reduce (array, start_point = 0)
-  i = 
+  i = 0
+  while i < array.length do 
     
     
